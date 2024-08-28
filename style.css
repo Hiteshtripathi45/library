@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav {
+  width: 100vw;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px 10px 100px;
+  background-color: rgba(110, 86, 86, 0.925);
+}
+.opt{
+  display: flex;
+  gap: 20px;
+}
+button{
+  height: 50px;
+  width: 10vw;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 10;
+  font-size: 18px;
+  font-weight: 900;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
