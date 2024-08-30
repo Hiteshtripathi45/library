@@ -39,7 +39,7 @@ form{
   box-shadow: 0 0 10 black;
   border-radius: 9px;
   border: 1px solid rgb(146, 142, 142);
-  display: flex;
+  display: none;
   flex-direction: column;
   font-size: 19px;
   font-weight: bold;
@@ -71,4 +71,8 @@ input{
   border-radius: 7px;
   align-items: center;
   border:2px solid rgb(60, 120, 250); ;
+}
+.cancell{
+  width: 50px;
+  
 }
