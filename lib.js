@@ -36,7 +36,7 @@ submit.addEventListener('click', (event) => {
 
     const newDiv = document.createElement('div');
     newDiv.style.width = '400px';
-    newDiv.style.height = '450px';
+    newDiv.style.height = '490px';
     newDiv.style.backgroundImage = 'url(book.jpg)'
     newDiv.style.backgroundSize = 'contain'
     newDiv.style.margin = '20px';
@@ -67,6 +67,14 @@ submit.addEventListener('click', (event) => {
 
 
     body.appendChild(newDiv);
+    const but = document.createElement('button')
+    but.textContent = 'DELETE'
+      
+    newDiv.appendChild(but);
+    but.addEventListener('click',()=>{
+        newDiv.remove()
+    })
+    
 
     form.style.display = 'none';
 
